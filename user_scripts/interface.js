@@ -53,29 +53,6 @@ var PortfolioGroup = React.createClass({
     }
 })
 
-var PortfolioFilters = React.createClass({
-    updateFilter: function (name, event) {
-        var active = event.target.checked;
-        this.props.onChange(name, active);
-    },
-    render: function () {
-        var boxes = this.props.groups.map(function (group, i) {
-            return (
-                <label key={i} className="checkbox-inline"><input type="checkbox" ref={group} name={group}
-                                                                  defaultChecked={true}
-                                                                  onChange={this.updateFilter.bind(null, group)}></input>{group}
-                </label>
-            );
-        }, this);
-        return (
-            <div className="text-center">
-                <h4>Filters: </h4>
-                {boxes}
-            </div>
-        );
-    }
-})
-
 var Portfolio = React.createClass({
     handleUpdate: function (group, active) {
         if (this.props.data[group] != null) {
