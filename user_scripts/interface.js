@@ -1,80 +1,10 @@
 var data = {
-    'Spring 2018': [
+    'Game': [
         {
-            title: "Garden Mystery",
-            studentName: "Judith Brennan",
+            title: "The Lens",
+            studentName: "",
             summary: "",
-            slug: "garden-mystery"
-        },
-        {
-            title: "Awful Game",
-            studentName: "Robert Brown",
-            summary: "",
-            slug: "awful-game"
-        },
-        {
-            title: "PatThicc",
-            studentName: "Daniel Jung",
-            summary: "",
-            slug: "patthicc"
-        },
-        {
-            title: "Ravioli",
-            studentName: "Stephen Kamali",
-            summary: "",
-            slug: "ravioli"
-        },
-        {
-            title: "Yeji",
-            studentName: "Shannon Ke",
-            summary: "",
-            slug: "yeji"
-        },
-        {
-            title: "Frogger",
-            studentName: "Tarun Maddali",
-            summary: "",
-            slug: "frogger"
-        },
-    ],
-    'Fall 2017': [
-        {
-            title: "Come Find Me",
-            studentName: "Jonathan Gaul",
-            summary: "",
-            slug: "come-find-me"
-        }
-    ],
-    'TA Games': [
-        {
-            title: "Ted",
-            studentName: "Austin Adams",
-            summary: "",
-            slug: "ted"
-        },
-        {
-            title: "cnake",
-            studentName: "Cem Gokmen",
-            summary: "",
-            slug: "cnake"
-        },
-        {
-            title: "Bubble Bobble",
-            studentName: "Madison Grams",
-            summary: "",
-            slug: "bubble-bobble"
-        },
-        {
-            title: "Super Toad-ally Mario",
-            studentName: "Joshua Viszlai",
-            summary: "",
-            slug: "super-toad-ally-mario"
-        },
-        {
-            title: "Pokemon Grind Version",
-            studentName: "Benjamin Yarmowich",
-            summary: "",
-            slug: "pokemon-grind"
+            slug: "TheLens"
         },
     ]
 };
