@@ -2,8 +2,6 @@ var data = {
     'Game': [
         {
             title: "The Lens",
-            studentName: "",
-            summary: "",
             slug: "TheLens"
         },
     ]
@@ -18,9 +16,7 @@ var PortfolioItem = React.createClass({
                     <img src={"./images/" + this.props.slug + ".png"}/>
                     <div className="caption">
                         <h3>{this.props.title}<br/>
-                            <small>{this.props.studentName}</small>
                         </h3>
-                        <p>{this.props.summary}</p>
                         <p><a href={"./launcher.html#" + this.props.slug} className="btn btn-success" role="button">Play</a> <a href={"./binaries/" + this.props.slug + ".gba"} className="btn btn-primary" role="button">Download</a></p>
                     </div>
                 </div>
@@ -37,8 +33,7 @@ var PortfolioGroup = React.createClass({
         if (this.state.active) {
             var items = this.props.data.map(function (item, i) {
                 return (
-                    [<PortfolioItem key={i} title={item.title} studentName={item.studentName}
-                                    summary={item.summary} slug={item.slug}></PortfolioItem>]
+                    [<PortfolioItem key={i} title={item.title} slug={item.slug}></PortfolioItem>]
                 );
             }, this);
             return (
@@ -50,6 +45,29 @@ var PortfolioGroup = React.createClass({
         } else {
             return null;
         }
+    }
+})
+
+var PortfolioFilters = React.createClass({
+    updateFilter: function (name, event) {
+        var active = event.target.checked;
+        this.props.onChange(name, active);
+    },
+    render: function () {
+        var boxes = this.props.groups.map(function (group, i) {
+            return (
+                <label key={i} className="checkbox-inline"><input type="checkbox" ref={group} name={group}
+                                                                  defaultChecked={true}
+                                                                  onChange={this.updateFilter.bind(null, group)}></input>{group}
+                </label>
+            );
+        }, this);
+        return (
+            <div className="text-center">
+                <h4>Filters: </h4>
+                {boxes}
+            </div>
+        );
     }
 })
 
