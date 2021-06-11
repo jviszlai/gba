@@ -4,6 +4,10 @@ var data = {
             title: "The Lens",
             slug: "TheLens"
         },
+        {
+            title: "GHP",
+            slug: "ghp"
+        },
     ]
 };
 
