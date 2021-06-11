@@ -179,4 +179,8 @@ if (typeof Atomics == "object") {
         Atomics.wait = Atomics.futexWait;
         Atomics.notify = Atomics.futexWake;
     }
+	else if (typeof Atomics.wake == "function" && typeof Atomics.notify == "undefined") {
+        //Polyfill in deprecated call names:
+        Atomics.notify = Atomics.wake;
+    }
 }
