@@ -1,5 +1,8 @@
 var data = {
-    'Game': [
+    'Student Games': [
+
+    ],
+    'Personal Games': [
         {
             title: "The Lens",
             slug: "TheLens",
@@ -37,7 +40,7 @@ var PortfolioGroup = React.createClass({
         if (this.state.active) {
             var items = this.props.data.map(function (item, i) {
                 return (
-                    [<PortfolioItem key={i} title={item.title} slug={item.slug}> authors={item.authors} description={item.description}</PortfolioItem>]
+                    [<PortfolioItem key={i} title={item.title} slug={item.slug} authors={item.authors} description={item.description}></PortfolioItem>]
                 );
             }, this);
             return (
