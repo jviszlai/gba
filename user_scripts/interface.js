@@ -2,12 +2,10 @@ var data = {
     'Game': [
         {
             title: "The Lens",
-            slug: "TheLens"
-        },
-        {
-            title: "GHP",
-            slug: "ghp"
-        },
+            slug: "TheLens",
+            description: "An educational physics game about gravitational lensing",
+            authors: "Joshua Viszlai"
+        }
     ]
 };
 
@@ -19,7 +17,9 @@ var PortfolioItem = React.createClass({
                 <div className="thumbnail">
                     <img src={"./images/" + this.props.slug + ".png"}/>
                     <div className="caption">
-                        <h3>{this.props.title}<br/>
+                        <h3><b>Title: </b> {this.props.title}<br/>
+                            <b>Authors: </b>{this.props.authors}<br/>
+                            <b>Description: </b>{this.props.description}<br/>
                         </h3>
                         <p><a href={"./launcher.html#" + this.props.slug} className="btn btn-success" role="button">Play</a> <a href={"./binaries/" + this.props.slug + ".gba"} className="btn btn-primary" role="button">Download</a></p>
                     </div>
@@ -37,7 +37,7 @@ var PortfolioGroup = React.createClass({
         if (this.state.active) {
             var items = this.props.data.map(function (item, i) {
                 return (
-                    [<PortfolioItem key={i} title={item.title} slug={item.slug}></PortfolioItem>]
+                    [<PortfolioItem key={i} title={item.title} slug={item.slug}> authors={item.authors} description={item.description}</PortfolioItem>]
                 );
             }, this);
             return (
