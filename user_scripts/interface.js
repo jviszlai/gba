@@ -22,8 +22,11 @@ var PortfolioItem = React.createClass({
                     <div className="caption">
                         <h3><b>Title: </b> {this.props.title}<br/>
                             <b>Authors: </b>{this.props.authors}<br/>
-                            <b>Description: </b>{this.props.description}<br/>
+                            <b>Description: </b>
                         </h3>
+                        <h5>
+                            {this.props.description}<br/>
+                        </h5>
                         <p><a href={"./launcher.html#" + this.props.slug} className="btn btn-success" role="button">Play</a> <a href={"./binaries/" + this.props.slug + ".gba"} className="btn btn-primary" role="button">Download</a></p>
                     </div>
                 </div>
