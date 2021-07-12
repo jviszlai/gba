@@ -1,5 +1,5 @@
-# My GBA Game
-Host of my Phys 4147 gba game. Almost all of the website code is from the 2110 gba game webpage.
+# GBA Games
+Host of GBA games on my website. Almost all the code is from [here](https://github.com/zucchini/cs2110-gba): 
 
 ## GBA Emulator Core Used:
 IodineGBA is the emulator used to run the games on your browser.
