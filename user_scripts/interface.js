@@ -7,11 +7,10 @@ var data = {
             authors: "Anamika Sharif, Elisa  Xia, Ava Herrmann"
         },
         {
-            title: "Starfall",
-            slug: "Starfall",
-            description: "Stars. Falling. Crazy. With rechargeable jumps, the Angel navigates to the earth below. Despite the colors and design, this game is deceivingly difficult. Don’t report bugs, they’re part of the experience. Try speedrunning<3\n\nBest Speedrunner: Ddog (36.37 seconds)",
-            authors: "Coded by Lily Carras. Level Design and Additional Coding by Will Ergle. Art Direction by Maret McWhorter"
-            
+            title: "Surviving Krannert",
+            slug: "SurvivingKrannert",
+            description: "Dodge food in Krannert to survive!",
+            authors: "Elizabeth Jones, Roderic Parson"
         },
         {
             title: "Game",
@@ -26,16 +25,17 @@ var data = {
             authors: "Andrew V. Manchiraju"
         },
         {
+            title: "Starfall",
+            slug: "Starfall",
+            description: "Stars. Falling. Crazy. With rechargeable jumps, the Angel navigates to the earth below. Despite the colors and design, this game is deceivingly difficult. Don’t report bugs, they’re part of the experience. Try speedrunning<3\n\nBest Speedrunner: Ddog (36.37 seconds)",
+            authors: "Coded by Lily Carras. Level Design and Additional Coding by Will Ergle. Art Direction by Maret McWhorter"
+            
+        },
+        {
             title: "Gannos Tower Infiltration",
             slug: "GTI",
             description: "Infitrate the tower of Gannos as Lonk to save Zolda!",
             authors: "Brandon Hall, Douglas Mwangi"
-        },
-        {
-            title: "Surviving Krannert",
-            slug: "SurvivingKrannert",
-            description: "Dodge food in Krannert to survive!",
-            authors: "Elizabeth Jones, Roderic Parson"
         }
     ],
     'Personal Games': [
