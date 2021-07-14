@@ -28,8 +28,14 @@ var data = {
         {
             title: "Gannos Tower Infiltration",
             slug: "GTI",
-            description: "Infitrate the tower of Gannos as Lonk to save Zolda.",
+            description: "Infitrate the tower of Gannos as Lonk to save Zolda!",
             authors: "Brandon Hall, Douglas Mwangi"
+        },
+        {
+            title: "Surviving Krannert",
+            slug: "SurvivingKrannert",
+            description: "Dodge food in Krannert to survive!",
+            authors: "Elizabeth Jones, Roderic Parson"
         }
     ],
     'Personal Games': [
