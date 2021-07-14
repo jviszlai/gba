@@ -10,8 +10,14 @@ var data = {
             title: "Starfall",
             slug: "Starfall",
             description: "Stars. Falling. Crazy. With rechargeable jumps, the Angel navigates to the earth below. Despite the colors and design, this game is deceivingly difficult. Don’t report bugs, they’re part of the experience. Try speedrunning<3\n\nBest Speedrunner: Ddog (36.37 seconds)",
-            authors: "Coded by Lily Carras\nLevel Design and Additional Coding by Will Ergle\nArt Direction by Maret McWhorter"
+            authors: "Coded by Lily Carras. Level Design and Additional Coding by Will Ergle. Art Direction by Maret McWhorter"
             
+        },
+        {
+            title: "Game",
+            slug: "Game",
+            description: "Play as a lonely (poorly drawn) circle as he tries to escape the numerous projectiles flying towards him and live for a few seconds longer",
+            authors: "Josh Blackmon, Titoluwa Alofe, Nathaniel Wasihun"
         }
     ],
     'Personal Games': [
