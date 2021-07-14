@@ -3,8 +3,15 @@ var data = {
         {
             title: "Burger Lover",
             slug: "BurgerLover",
-            description:"The best burger dating simulator where you play as Cherry the Tomato, an aspiring restaurant owner. Cherry lands herself a job at Burger Shack, a homey hole-in-the-ground restaurant owned by the ambitious and hardworking Bill the Burger. This game takes you on a journey where you make sandwiches, explore family trauma, and follow your dreams.",
+            description: "The best burger dating simulator where you play as Cherry the Tomato, an aspiring restaurant owner. Cherry lands herself a job at Burger Shack, a homey hole-in-the-ground restaurant owned by the ambitious and hardworking Bill the Burger. This game takes you on a journey where you make sandwiches, explore family trauma, and follow your dreams.",
             authors: "Anamika Sharif, Elisa  Xia, Ava Herrmann"
+        },
+        {
+            title: "Starfall",
+            slug: "Starfall",
+            description: "Stars. Falling. Crazy. With rechargeable jumps, the Angel navigates to the earth below. Despite the colors and design, this game is deceivingly difficult. Don’t report bugs, they’re part of the experience. Try speedrunning<3\n\nBest Speedrunner: Ddog (36.37 seconds)",
+            authors: "Coded by Lily Carras\nLevel Design and Additional Coding by Will Ergle\nArt Direction by Maret McWhorter"
+            
         }
     ],
     'Personal Games': [
