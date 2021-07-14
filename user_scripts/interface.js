@@ -1,10 +1,10 @@
 var data = {
     'Student Games': [
         {
-            title: "Burger Lover",
-            slug: "BurgerLover",
-            description: "The best burger dating simulator where you play as Cherry the Tomato, an aspiring restaurant owner. Cherry lands herself a job at Burger Shack, a homey hole-in-the-ground restaurant owned by the ambitious and hardworking Bill the Burger. This game takes you on a journey where you make sandwiches, explore family trauma, and follow your dreams.",
-            authors: "Anamika Sharif, Elisa  Xia, Ava Herrmann"
+            title: "Gannos Tower Infiltration",
+            slug: "GTI",
+            description: "Infitrate the tower of Gannos as Lonk to save Zolda!",
+            authors: "Brandon Hall, Douglas Mwangi"
         },
         {
             title: "Surviving Krannert",
@@ -32,10 +32,10 @@ var data = {
             
         },
         {
-            title: "Gannos Tower Infiltration",
-            slug: "GTI",
-            description: "Infitrate the tower of Gannos as Lonk to save Zolda!",
-            authors: "Brandon Hall, Douglas Mwangi"
+            title: "Burger Lover",
+            slug: "BurgerLover",
+            description: "The best burger dating simulator where you play as Cherry the Tomato, an aspiring restaurant owner. Cherry lands herself a job at Burger Shack, a homey hole-in-the-ground restaurant owned by the ambitious and hardworking Bill the Burger. This game takes you on a journey where you make sandwiches, explore family trauma, and follow your dreams.",
+            authors: "Anamika Sharif, Elisa  Xia, Ava Herrmann"
         }
     ],
     'Personal Games': [
