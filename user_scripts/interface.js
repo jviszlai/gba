@@ -18,6 +18,12 @@ var data = {
             slug: "Game",
             description: "Play as a lonely (poorly drawn) circle as he tries to escape the numerous projectiles flying towards him and live for a few seconds longer",
             authors: "Josh Blackmon, Titoluwa Alofe, Nathaniel Wasihun"
+        },
+        {
+            title: "Battle Against the Gods/ Bob",
+            slug: "BAtGB",
+            description: "Your job is to go into the temple and defeat the boss within it, no questions asked. Nothing else is going on here so do not question it. The world is Earth hundreds of years after WWIII destroyed the world and many people rose up to control the people.",
+            authors: "Andrew V. Manchiraju"
         }
     ],
     'Personal Games': [
