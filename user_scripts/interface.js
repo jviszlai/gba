@@ -24,6 +24,12 @@ var data = {
             slug: "BAtGB",
             description: "Your job is to go into the temple and defeat the boss within it, no questions asked. Nothing else is going on here so do not question it. The world is Earth hundreds of years after WWIII destroyed the world and many people rose up to control the people.",
             authors: "Andrew V. Manchiraju"
+        },
+        {
+            title: "Gannos Tower Infiltration",
+            slug: "GTI",
+            description: "Infitrate the tower of Gannos as Lonk to save Zolda.",
+            authors: "Brandon Hall, Douglas Mwangi"
         }
     ],
     'Personal Games': [
