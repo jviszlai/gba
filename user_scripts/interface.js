@@ -37,14 +37,6 @@ var data = {
             description: "The best burger dating simulator where you play as Cherry the Tomato, an aspiring restaurant owner. Cherry lands herself a job at Burger Shack, a homey hole-in-the-ground restaurant owned by the ambitious and hardworking Bill the Burger. This game takes you on a journey where you make sandwiches, explore family trauma, and follow your dreams.",
             authors: "Anamika Sharif, Elisa  Xia, Ava Herrmann"
         }
-    ],
-    'Personal Games': [
-        {
-            title: "The Lens",
-            slug: "TheLens",
-            description: "An educational physics game about gravitational lensing",
-            authors: "Joshua Viszlai"
-        }
     ]
 };
 
