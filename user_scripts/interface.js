@@ -1,6 +1,11 @@
 var data = {
     'Student Games': [
-
+        {
+            title: "Burger Lover",
+            slug: "BurgerLover",
+            description:"test",
+            authors: "test"
+        }
     ],
     'Personal Games': [
         {
